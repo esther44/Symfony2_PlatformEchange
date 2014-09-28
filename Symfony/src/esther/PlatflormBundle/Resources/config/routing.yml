@@ -1,5 +1,0 @@
-# src/esther/PlatformBundle/Resources/config/routing.yml
-
-esther_platform_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: estherPlatformBundle:Default:index }
