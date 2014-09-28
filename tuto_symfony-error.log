@@ -1,0 +1,223 @@
+[Sat Sep 27 21:09:00 2014] [error] [client 127.0.0.1] PHP Fatal error:  Cannot redeclare class esther\\PlatformBundle\\Controller\\AdvertController in C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\src\\esther\\PlatflormBundle\\Controller\\AdvertController.php on line 10
+[Sat Sep 27 21:09:00 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Sep 27 21:09:00 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:0
+[Sat Sep 27 21:09:00 2014] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:28
+[Sat Sep 27 21:09:00 2014] [error] [client 127.0.0.1] PHP   3. Symfony\\Component\\HttpKernel\\DependencyInjection\\ContainerAwareHttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2335
+[Sat Sep 27 21:09:00 2014] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:3085
+[Sat Sep 27 21:09:00 2014] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2936
+[Sat Sep 27 21:09:00 2014] [error] [client 127.0.0.1] PHP   6. Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2967
+[Sat Sep 27 21:09:00 2014] [error] [client 127.0.0.1] PHP   7. Symfony\\Component\\HttpKernel\\Controller\\ControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver.php:46
+[Sat Sep 27 21:09:00 2014] [error] [client 127.0.0.1] PHP   8. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerResolver->createController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2056
+[Sat Sep 27 21:09:00 2014] [error] [client 127.0.0.1] PHP   9. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerNameParser->parse() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2393
+[Sat Sep 27 21:09:00 2014] [error] [client 127.0.0.1] PHP  10. class_exists() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2343
+[Sat Sep 27 21:09:00 2014] [error] [client 127.0.0.1] PHP  11. Symfony\\Component\\Debug\\DebugClassLoader->loadClass() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:0
+[Sat Sep 27 21:09:00 2014] [error] [client 127.0.0.1] PHP  12. require() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:154
+[Sat Sep 27 21:12:35 2014] [error] [client 127.0.0.1] PHP Fatal error:  Cannot redeclare class OC\\PlatformBundle\\Controller\\AdvertController in C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\src\\esther\\PlatflormBundle\\Controller\\AdvertController.php on line 9
+[Sat Sep 27 21:12:35 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Sep 27 21:12:35 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:0
+[Sat Sep 27 21:12:35 2014] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:28
+[Sat Sep 27 21:12:35 2014] [error] [client 127.0.0.1] PHP   3. Symfony\\Component\\HttpKernel\\DependencyInjection\\ContainerAwareHttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2335
+[Sat Sep 27 21:12:35 2014] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:3085
+[Sat Sep 27 21:12:35 2014] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2936
+[Sat Sep 27 21:12:35 2014] [error] [client 127.0.0.1] PHP   6. Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2967
+[Sat Sep 27 21:12:35 2014] [error] [client 127.0.0.1] PHP   7. Symfony\\Component\\HttpKernel\\Controller\\ControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver.php:46
+[Sat Sep 27 21:12:35 2014] [error] [client 127.0.0.1] PHP   8. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerResolver->createController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2056
+[Sat Sep 27 21:12:35 2014] [error] [client 127.0.0.1] PHP   9. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerNameParser->parse() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2393
+[Sat Sep 27 21:12:35 2014] [error] [client 127.0.0.1] PHP  10. class_exists() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2343
+[Sat Sep 27 21:12:35 2014] [error] [client 127.0.0.1] PHP  11. Symfony\\Component\\Debug\\DebugClassLoader->loadClass() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:0
+[Sat Sep 27 21:12:35 2014] [error] [client 127.0.0.1] PHP  12. require() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:154
+[Sat Sep 27 21:14:05 2014] [error] [client 127.0.0.1] PHP Fatal error:  Cannot redeclare class OC\\PlatformBundle\\Controller\\AdvertController in C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\src\\esther\\PlatflormBundle\\Controller\\AdvertController.php on line 10
+[Sat Sep 27 21:14:05 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Sep 27 21:14:05 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:0
+[Sat Sep 27 21:14:05 2014] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:28
+[Sat Sep 27 21:14:05 2014] [error] [client 127.0.0.1] PHP   3. Symfony\\Component\\HttpKernel\\DependencyInjection\\ContainerAwareHttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2335
+[Sat Sep 27 21:14:05 2014] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:3085
+[Sat Sep 27 21:14:05 2014] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2936
+[Sat Sep 27 21:14:05 2014] [error] [client 127.0.0.1] PHP   6. Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2967
+[Sat Sep 27 21:14:05 2014] [error] [client 127.0.0.1] PHP   7. Symfony\\Component\\HttpKernel\\Controller\\ControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver.php:46
+[Sat Sep 27 21:14:05 2014] [error] [client 127.0.0.1] PHP   8. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerResolver->createController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2056
+[Sat Sep 27 21:14:05 2014] [error] [client 127.0.0.1] PHP   9. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerNameParser->parse() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2393
+[Sat Sep 27 21:14:05 2014] [error] [client 127.0.0.1] PHP  10. class_exists() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2343
+[Sat Sep 27 21:14:05 2014] [error] [client 127.0.0.1] PHP  11. Symfony\\Component\\Debug\\DebugClassLoader->loadClass() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:0
+[Sat Sep 27 21:14:05 2014] [error] [client 127.0.0.1] PHP  12. require() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:154
+[Sat Sep 27 21:14:38 2014] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_PUBLIC, expecting '{' in C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\src\\esther\\PlatflormBundle\\Controller\\AdvertController.php on line 11
+[Sat Sep 27 21:14:38 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Sep 27 21:14:38 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:0
+[Sat Sep 27 21:14:38 2014] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:28
+[Sat Sep 27 21:14:38 2014] [error] [client 127.0.0.1] PHP   3. Symfony\\Component\\HttpKernel\\DependencyInjection\\ContainerAwareHttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2335
+[Sat Sep 27 21:14:38 2014] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:3085
+[Sat Sep 27 21:14:38 2014] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2936
+[Sat Sep 27 21:14:38 2014] [error] [client 127.0.0.1] PHP   6. Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2967
+[Sat Sep 27 21:14:38 2014] [error] [client 127.0.0.1] PHP   7. Symfony\\Component\\HttpKernel\\Controller\\ControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver.php:46
+[Sat Sep 27 21:14:38 2014] [error] [client 127.0.0.1] PHP   8. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerResolver->createController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2056
+[Sat Sep 27 21:14:38 2014] [error] [client 127.0.0.1] PHP   9. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerNameParser->parse() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2393
+[Sat Sep 27 21:14:38 2014] [error] [client 127.0.0.1] PHP  10. class_exists() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2343
+[Sat Sep 27 21:14:38 2014] [error] [client 127.0.0.1] PHP  11. Symfony\\Component\\Debug\\DebugClassLoader->loadClass() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:0
+[Sat Sep 27 21:19:36 2014] [error] [client 127.0.0.1] PHP Fatal error:  Cannot redeclare class esther\\PlatformBundle\\Controller\\AdvertController in C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\src\\esther\\PlatflormBundle\\Controller\\AdvertController.php on line 10
+[Sat Sep 27 21:19:36 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Sep 27 21:19:36 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:0
+[Sat Sep 27 21:19:36 2014] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:28
+[Sat Sep 27 21:19:36 2014] [error] [client 127.0.0.1] PHP   3. Symfony\\Component\\HttpKernel\\DependencyInjection\\ContainerAwareHttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2335
+[Sat Sep 27 21:19:36 2014] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:3085
+[Sat Sep 27 21:19:36 2014] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2936
+[Sat Sep 27 21:19:36 2014] [error] [client 127.0.0.1] PHP   6. Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2967
+[Sat Sep 27 21:19:36 2014] [error] [client 127.0.0.1] PHP   7. Symfony\\Component\\HttpKernel\\Controller\\ControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver.php:46
+[Sat Sep 27 21:19:36 2014] [error] [client 127.0.0.1] PHP   8. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerResolver->createController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2056
+[Sat Sep 27 21:19:36 2014] [error] [client 127.0.0.1] PHP   9. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerNameParser->parse() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2393
+[Sat Sep 27 21:19:36 2014] [error] [client 127.0.0.1] PHP  10. class_exists() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2343
+[Sat Sep 27 21:19:36 2014] [error] [client 127.0.0.1] PHP  11. Symfony\\Component\\Debug\\DebugClassLoader->loadClass() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:0
+[Sat Sep 27 21:19:36 2014] [error] [client 127.0.0.1] PHP  12. require() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:154
+[Sat Sep 27 22:20:08 2014] [error] [client 127.0.0.1] PHP Fatal error:  Class 'esther\\PlatformBundle\\Controller\\Controller' not found in C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\src\\esther\\PlatflormBundle\\Controller\\AdvertController.php on line 9
+[Sat Sep 27 22:20:08 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Sep 27 22:20:08 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:0
+[Sat Sep 27 22:20:08 2014] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:28
+[Sat Sep 27 22:20:08 2014] [error] [client 127.0.0.1] PHP   3. Symfony\\Component\\HttpKernel\\DependencyInjection\\ContainerAwareHttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2335
+[Sat Sep 27 22:20:08 2014] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:3085
+[Sat Sep 27 22:20:08 2014] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2936
+[Sat Sep 27 22:20:08 2014] [error] [client 127.0.0.1] PHP   6. Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2967
+[Sat Sep 27 22:20:08 2014] [error] [client 127.0.0.1] PHP   7. Symfony\\Component\\HttpKernel\\Controller\\ControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver.php:46
+[Sat Sep 27 22:20:08 2014] [error] [client 127.0.0.1] PHP   8. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerResolver->createController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2056
+[Sat Sep 27 22:20:08 2014] [error] [client 127.0.0.1] PHP   9. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerNameParser->parse() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2393
+[Sat Sep 27 22:20:08 2014] [error] [client 127.0.0.1] PHP  10. class_exists() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2343
+[Sat Sep 27 22:20:08 2014] [error] [client 127.0.0.1] PHP  11. Symfony\\Component\\Debug\\DebugClassLoader->loadClass() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:0
+[Sat Sep 27 22:20:08 2014] [error] [client 127.0.0.1] PHP  12. require() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:154
+[Sat Sep 27 22:31:14 2014] [error] [client 127.0.0.1] PHP Fatal error:  Cannot redeclare class esther\\PlatformBundle\\Controller\\AdvertController in C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\src\\esther\\PlatflormBundle\\Controller\\AdvertController.php on line 8
+[Sat Sep 27 22:31:14 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sat Sep 27 22:31:14 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:0
+[Sat Sep 27 22:31:14 2014] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:28
+[Sat Sep 27 22:31:14 2014] [error] [client 127.0.0.1] PHP   3. Symfony\\Component\\HttpKernel\\DependencyInjection\\ContainerAwareHttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2335
+[Sat Sep 27 22:31:14 2014] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:3085
+[Sat Sep 27 22:31:14 2014] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2936
+[Sat Sep 27 22:31:14 2014] [error] [client 127.0.0.1] PHP   6. Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2967
+[Sat Sep 27 22:31:14 2014] [error] [client 127.0.0.1] PHP   7. Symfony\\Component\\HttpKernel\\Controller\\ControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver.php:46
+[Sat Sep 27 22:31:14 2014] [error] [client 127.0.0.1] PHP   8. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerResolver->createController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2056
+[Sat Sep 27 22:31:14 2014] [error] [client 127.0.0.1] PHP   9. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerNameParser->parse() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2393
+[Sat Sep 27 22:31:14 2014] [error] [client 127.0.0.1] PHP  10. class_exists() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2343
+[Sat Sep 27 22:31:14 2014] [error] [client 127.0.0.1] PHP  11. Symfony\\Component\\Debug\\DebugClassLoader->loadClass() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:0
+[Sat Sep 27 22:31:14 2014] [error] [client 127.0.0.1] PHP  12. require() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:154
+[Sun Sep 28 12:20:02 2014] [error] [client 127.0.0.1] PHP Fatal error:  Cannot redeclare class esther\\PlatformBundle\\Controller\\AdvertController in C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\src\\esther\\PlatflormBundle\\Controller\\AdvertController.php on line 8
+[Sun Sep 28 12:20:02 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Sep 28 12:20:02 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:0
+[Sun Sep 28 12:20:02 2014] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:28
+[Sun Sep 28 12:20:02 2014] [error] [client 127.0.0.1] PHP   3. Symfony\\Component\\HttpKernel\\DependencyInjection\\ContainerAwareHttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2335
+[Sun Sep 28 12:20:02 2014] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:3085
+[Sun Sep 28 12:20:02 2014] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2936
+[Sun Sep 28 12:20:02 2014] [error] [client 127.0.0.1] PHP   6. Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2967
+[Sun Sep 28 12:20:02 2014] [error] [client 127.0.0.1] PHP   7. Symfony\\Component\\HttpKernel\\Controller\\ControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver.php:46
+[Sun Sep 28 12:20:02 2014] [error] [client 127.0.0.1] PHP   8. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerResolver->createController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2056
+[Sun Sep 28 12:20:02 2014] [error] [client 127.0.0.1] PHP   9. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerNameParser->parse() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2393
+[Sun Sep 28 12:20:02 2014] [error] [client 127.0.0.1] PHP  10. class_exists() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2343
+[Sun Sep 28 12:20:02 2014] [error] [client 127.0.0.1] PHP  11. Symfony\\Component\\Debug\\DebugClassLoader->loadClass() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:0
+[Sun Sep 28 12:20:02 2014] [error] [client 127.0.0.1] PHP  12. require() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:154
+[Sun Sep 28 12:23:17 2014] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected '/', expecting T_NS_SEPARATOR or ';' or '{' in C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\src\\esther\\PlatflormBundle\\Controller\\AdvertController.php on line 3
+[Sun Sep 28 12:23:17 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Sep 28 12:23:17 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:0
+[Sun Sep 28 12:23:17 2014] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:28
+[Sun Sep 28 12:23:17 2014] [error] [client 127.0.0.1] PHP   3. Symfony\\Component\\HttpKernel\\DependencyInjection\\ContainerAwareHttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2335
+[Sun Sep 28 12:23:17 2014] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:3085
+[Sun Sep 28 12:23:17 2014] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2936
+[Sun Sep 28 12:23:17 2014] [error] [client 127.0.0.1] PHP   6. Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2967
+[Sun Sep 28 12:23:17 2014] [error] [client 127.0.0.1] PHP   7. Symfony\\Component\\HttpKernel\\Controller\\ControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver.php:46
+[Sun Sep 28 12:23:17 2014] [error] [client 127.0.0.1] PHP   8. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerResolver->createController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2056
+[Sun Sep 28 12:23:17 2014] [error] [client 127.0.0.1] PHP   9. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerNameParser->parse() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2393
+[Sun Sep 28 12:23:17 2014] [error] [client 127.0.0.1] PHP  10. class_exists() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2343
+[Sun Sep 28 12:23:17 2014] [error] [client 127.0.0.1] PHP  11. Symfony\\Component\\Debug\\DebugClassLoader->loadClass() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:0
+[Sun Sep 28 12:24:00 2014] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected '.', expecting T_NS_SEPARATOR or ';' or '{' in C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\src\\esther\\PlatflormBundle\\Controller\\AdvertController.php on line 3
+[Sun Sep 28 12:24:00 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Sep 28 12:24:00 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:0
+[Sun Sep 28 12:24:00 2014] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:28
+[Sun Sep 28 12:24:00 2014] [error] [client 127.0.0.1] PHP   3. Symfony\\Component\\HttpKernel\\DependencyInjection\\ContainerAwareHttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2335
+[Sun Sep 28 12:24:00 2014] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:3085
+[Sun Sep 28 12:24:00 2014] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2936
+[Sun Sep 28 12:24:00 2014] [error] [client 127.0.0.1] PHP   6. Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2967
+[Sun Sep 28 12:24:00 2014] [error] [client 127.0.0.1] PHP   7. Symfony\\Component\\HttpKernel\\Controller\\ControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver.php:46
+[Sun Sep 28 12:24:00 2014] [error] [client 127.0.0.1] PHP   8. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerResolver->createController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2056
+[Sun Sep 28 12:24:00 2014] [error] [client 127.0.0.1] PHP   9. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerNameParser->parse() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2393
+[Sun Sep 28 12:24:00 2014] [error] [client 127.0.0.1] PHP  10. class_exists() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2343
+[Sun Sep 28 12:24:00 2014] [error] [client 127.0.0.1] PHP  11. Symfony\\Component\\Debug\\DebugClassLoader->loadClass() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:0
+[Sun Sep 28 12:25:01 2014] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected '/', expecting T_NS_SEPARATOR or ';' or '{' in C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\src\\esther\\PlatflormBundle\\Controller\\AdvertController.php on line 3
+[Sun Sep 28 12:25:01 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Sep 28 12:25:01 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:0
+[Sun Sep 28 12:25:01 2014] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:28
+[Sun Sep 28 12:25:01 2014] [error] [client 127.0.0.1] PHP   3. Symfony\\Component\\HttpKernel\\DependencyInjection\\ContainerAwareHttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2335
+[Sun Sep 28 12:25:01 2014] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:3085
+[Sun Sep 28 12:25:01 2014] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2936
+[Sun Sep 28 12:25:01 2014] [error] [client 127.0.0.1] PHP   6. Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2967
+[Sun Sep 28 12:25:01 2014] [error] [client 127.0.0.1] PHP   7. Symfony\\Component\\HttpKernel\\Controller\\ControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver.php:46
+[Sun Sep 28 12:25:01 2014] [error] [client 127.0.0.1] PHP   8. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerResolver->createController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2056
+[Sun Sep 28 12:25:01 2014] [error] [client 127.0.0.1] PHP   9. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerNameParser->parse() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2393
+[Sun Sep 28 12:25:01 2014] [error] [client 127.0.0.1] PHP  10. class_exists() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2343
+[Sun Sep 28 12:25:01 2014] [error] [client 127.0.0.1] PHP  11. Symfony\\Component\\Debug\\DebugClassLoader->loadClass() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:0
+[Sun Sep 28 12:26:55 2014] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected '/', expecting T_NS_SEPARATOR or ';' or '{' in C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\src\\esther\\PlatflormBundle\\Controller\\AdvertController.php on line 2
+[Sun Sep 28 12:26:55 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Sep 28 12:26:55 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:0
+[Sun Sep 28 12:26:55 2014] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:28
+[Sun Sep 28 12:26:55 2014] [error] [client 127.0.0.1] PHP   3. Symfony\\Component\\HttpKernel\\DependencyInjection\\ContainerAwareHttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2335
+[Sun Sep 28 12:26:55 2014] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:3085
+[Sun Sep 28 12:26:55 2014] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2936
+[Sun Sep 28 12:26:55 2014] [error] [client 127.0.0.1] PHP   6. Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2967
+[Sun Sep 28 12:26:55 2014] [error] [client 127.0.0.1] PHP   7. Symfony\\Component\\HttpKernel\\Controller\\ControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver.php:46
+[Sun Sep 28 12:26:55 2014] [error] [client 127.0.0.1] PHP   8. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerResolver->createController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2056
+[Sun Sep 28 12:26:55 2014] [error] [client 127.0.0.1] PHP   9. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerNameParser->parse() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2393
+[Sun Sep 28 12:26:55 2014] [error] [client 127.0.0.1] PHP  10. class_exists() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2343
+[Sun Sep 28 12:26:55 2014] [error] [client 127.0.0.1] PHP  11. Symfony\\Component\\Debug\\DebugClassLoader->loadClass() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:0
+[Sun Sep 28 12:27:21 2014] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected '.', expecting T_NS_SEPARATOR or ';' or '{' in C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\src\\esther\\PlatflormBundle\\Controller\\AdvertController.php on line 2
+[Sun Sep 28 12:27:21 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Sep 28 12:27:21 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:0
+[Sun Sep 28 12:27:21 2014] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:28
+[Sun Sep 28 12:27:21 2014] [error] [client 127.0.0.1] PHP   3. Symfony\\Component\\HttpKernel\\DependencyInjection\\ContainerAwareHttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2335
+[Sun Sep 28 12:27:21 2014] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:3085
+[Sun Sep 28 12:27:21 2014] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2936
+[Sun Sep 28 12:27:21 2014] [error] [client 127.0.0.1] PHP   6. Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2967
+[Sun Sep 28 12:27:21 2014] [error] [client 127.0.0.1] PHP   7. Symfony\\Component\\HttpKernel\\Controller\\ControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver.php:46
+[Sun Sep 28 12:27:21 2014] [error] [client 127.0.0.1] PHP   8. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerResolver->createController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2056
+[Sun Sep 28 12:27:21 2014] [error] [client 127.0.0.1] PHP   9. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerNameParser->parse() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2393
+[Sun Sep 28 12:27:21 2014] [error] [client 127.0.0.1] PHP  10. class_exists() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2343
+[Sun Sep 28 12:27:21 2014] [error] [client 127.0.0.1] PHP  11. Symfony\\Component\\Debug\\DebugClassLoader->loadClass() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:0
+[Sun Sep 28 12:27:56 2014] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected '.', expecting T_NS_SEPARATOR or ';' or '{' in C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\src\\esther\\PlatflormBundle\\Controller\\AdvertController.php on line 2
+[Sun Sep 28 12:27:56 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Sep 28 12:27:56 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:0
+[Sun Sep 28 12:27:56 2014] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:28
+[Sun Sep 28 12:27:56 2014] [error] [client 127.0.0.1] PHP   3. Symfony\\Component\\HttpKernel\\DependencyInjection\\ContainerAwareHttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2335
+[Sun Sep 28 12:27:56 2014] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:3085
+[Sun Sep 28 12:27:56 2014] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2936
+[Sun Sep 28 12:27:56 2014] [error] [client 127.0.0.1] PHP   6. Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2967
+[Sun Sep 28 12:27:56 2014] [error] [client 127.0.0.1] PHP   7. Symfony\\Component\\HttpKernel\\Controller\\ControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver.php:46
+[Sun Sep 28 12:27:56 2014] [error] [client 127.0.0.1] PHP   8. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerResolver->createController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2056
+[Sun Sep 28 12:27:56 2014] [error] [client 127.0.0.1] PHP   9. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerNameParser->parse() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2393
+[Sun Sep 28 12:27:56 2014] [error] [client 127.0.0.1] PHP  10. class_exists() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2343
+[Sun Sep 28 12:27:56 2014] [error] [client 127.0.0.1] PHP  11. Symfony\\Component\\Debug\\DebugClassLoader->loadClass() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:0
+[Sun Sep 28 17:30:45 2014] [error] [client 127.0.0.1] PHP Fatal error:  Cannot redeclare class src\\esther\\PlatformBundle\\Controller\\AdvertController in C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\src\\esther\\PlatflormBundle\\Controller\\AdvertController.php on line 8
+[Sun Sep 28 17:30:45 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Sep 28 17:30:45 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:0
+[Sun Sep 28 17:30:45 2014] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:28
+[Sun Sep 28 17:30:45 2014] [error] [client 127.0.0.1] PHP   3. Symfony\\Component\\HttpKernel\\DependencyInjection\\ContainerAwareHttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2335
+[Sun Sep 28 17:30:45 2014] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:3085
+[Sun Sep 28 17:30:45 2014] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2936
+[Sun Sep 28 17:30:45 2014] [error] [client 127.0.0.1] PHP   6. Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2967
+[Sun Sep 28 17:30:45 2014] [error] [client 127.0.0.1] PHP   7. Symfony\\Component\\HttpKernel\\Controller\\ControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver.php:46
+[Sun Sep 28 17:30:45 2014] [error] [client 127.0.0.1] PHP   8. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerResolver->createController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2056
+[Sun Sep 28 17:30:45 2014] [error] [client 127.0.0.1] PHP   9. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerNameParser->parse() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2393
+[Sun Sep 28 17:30:45 2014] [error] [client 127.0.0.1] PHP  10. class_exists() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2343
+[Sun Sep 28 17:30:45 2014] [error] [client 127.0.0.1] PHP  11. Symfony\\Component\\Debug\\DebugClassLoader->loadClass() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:0
+[Sun Sep 28 17:30:45 2014] [error] [client 127.0.0.1] PHP  12. require() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:154
+[Sun Sep 28 17:59:15 2014] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected '/', expecting T_NS_SEPARATOR or ';' or '{' in C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\src\\esther\\PlatflormBundle\\Controller\\AdvertController.php on line 3
+[Sun Sep 28 17:59:15 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Sep 28 17:59:15 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:0
+[Sun Sep 28 17:59:15 2014] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:28
+[Sun Sep 28 17:59:15 2014] [error] [client 127.0.0.1] PHP   3. Symfony\\Component\\HttpKernel\\DependencyInjection\\ContainerAwareHttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2335
+[Sun Sep 28 17:59:15 2014] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\HttpKernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:3085
+[Sun Sep 28 17:59:15 2014] [error] [client 127.0.0.1] PHP   5. Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2936
+[Sun Sep 28 17:59:15 2014] [error] [client 127.0.0.1] PHP   6. Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2967
+[Sun Sep 28 17:59:15 2014] [error] [client 127.0.0.1] PHP   7. Symfony\\Component\\HttpKernel\\Controller\\ControllerResolver->getController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver.php:46
+[Sun Sep 28 17:59:15 2014] [error] [client 127.0.0.1] PHP   8. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerResolver->createController() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2056
+[Sun Sep 28 17:59:15 2014] [error] [client 127.0.0.1] PHP   9. Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerNameParser->parse() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2393
+[Sun Sep 28 17:59:15 2014] [error] [client 127.0.0.1] PHP  10. class_exists() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\cache\\dev\\classes.php:2343
+[Sun Sep 28 17:59:15 2014] [error] [client 127.0.0.1] PHP  11. Symfony\\Component\\Debug\\DebugClassLoader->loadClass() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Debug\\DebugClassLoader.php:0
+[Sun Sep 28 18:49:18 2014] [error] [client 127.0.0.1] PHP Fatal error:  Class 'esther\\PlatformBundle\\estherPlatformBundle' not found in C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\AppKernel.php on line 19
+[Sun Sep 28 18:49:18 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Sep 28 18:49:18 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:0
+[Sun Sep 28 18:49:18 2014] [error] [client 127.0.0.1] PHP   2. Symfony\\Component\\HttpKernel\\Kernel->handle() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\web\\app_dev.php:28
+[Sun Sep 28 18:49:18 2014] [error] [client 127.0.0.1] PHP   3. Symfony\\Component\\HttpKernel\\Kernel->boot() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2333
+[Sun Sep 28 18:49:18 2014] [error] [client 127.0.0.1] PHP   4. Symfony\\Component\\HttpKernel\\Kernel->initializeBundles() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2301
+[Sun Sep 28 18:49:18 2014] [error] [client 127.0.0.1] PHP   5. AppKernel->registerBundles() C:\\UwAmp\\www\\Symfony_tuto\\Symfony\\app\\bootstrap.php.cache:2471
