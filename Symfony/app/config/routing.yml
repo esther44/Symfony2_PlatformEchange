@@ -1,4 +1,4 @@
 esther_platform:
     resource: "@estherPlatformBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /platform #prefixe de chaque route
 

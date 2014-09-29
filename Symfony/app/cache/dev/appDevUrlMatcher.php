@@ -135,14 +135,31 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
         }
 
-        // hello_the_world
-        if ($pathinfo === '/hello-world') {
-            return array (  '_controller' => 'esther\\PlatformBundle\\Controller\\AdvertController::indexAction',  '_route' => 'hello_the_world',);
-        }
+        if (0 === strpos($pathinfo, '/platform')) {
+            // esther_platform_home
+            if (rtrim($pathinfo, '/') === '/platform') {
+                if (substr($pathinfo, -1) !== '/') {
+                    return $this->redirect($pathinfo.'/', 'esther_platform_home');
+                }
 
-        // byebye_the_world
-        if ($pathinfo === '/byebye-world') {
-            return array (  '_controller' => 'esther\\PlatformBundle\\Controller\\AdvertController::byebyeAction',  '_route' => 'byebye_the_world',);
+                return array (  '_controller' => 'esther\\PlatformBundle\\Controller\\AdvertController::indexAction',  '_route' => 'esther_platform_home',);
+            }
+
+            // esther_platform_view
+            if (0 === strpos($pathinfo, '/platform/advert') && preg_match('#^/platform/advert/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'esther_platform_view')), array (  '_controller' => 'esther\\PlatformBundle\\Controller\\AdvertController::viewAction',));
+            }
+
+            // esther_platform_view_slug
+            if (preg_match('#^/platform/(?P<year>\\d{4})/(?P<slug>[^/\\.]++)(?:\\.(?P<format>html|xml))?$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'esther_platform_view_slug')), array (  '_controller' => 'esther\\PlatformBundle\\Controller\\AdvertController::viewSlugAction',  'format' => 'html',));
+            }
+
+            // esther_platform_add
+            if ($pathinfo === '/platform/add') {
+                return array (  '_controller' => 'esther\\PlatformBundle\\Controller\\AdvertController::addAction',  '_route' => 'esther_platform_add',);
+            }
+
         }
 
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();

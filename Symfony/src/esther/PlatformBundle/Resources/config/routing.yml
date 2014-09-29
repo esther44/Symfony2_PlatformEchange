@@ -1,9 +1,29 @@
 # src/esther/PlatformBundle/Resources/config/routing.yml
 
-hello_the_world:
-    path:    /hello-world
-    defaults: { _controller: estherPlatformBundle:Advert:index }
+esher_platform_home: #page d'accueil avec numéro des pages pour les annonces
+    path:      /{page}
+    defaults:  { _controller: estherPlatformBundle:Advert:index, page: 1 }
+    requirements:
+        page: \d*
+    
+esther_platform_view: #page visualisation d'une annonce
+    path:      /advert/{id}
+    defaults:  { _controller: estherPlatformBundle:Advert:view }
+    requirements:
+        id: \d+
 
-byebye_the_world:
-    path:    /byebye-world
-    defaults: { _controller: estherPlatformBundle:Advert:byebye }
+esther_platform_add: #ajout
+    path:      /add
+    defaults:  { _controller: estherPlatformBundle:Advert:add }
+
+esther_platform_edit: #modification
+    path:      /edit/{id}
+    defaults:  { _controller: estherPlatformBundle:Advert:edit }
+    requirements:
+        id: \d+
+
+esther_platform_delete: #suppression
+    path:      /delete/{id}
+    defaults:  { _controller: estherPlatformBundle:Advert:delete }
+    requirements:
+        id: \d+

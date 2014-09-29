@@ -23,17 +23,7 @@ class __TwigTemplate_a1874c4e0bb87c200eae477f6392b617006f46af24088b4b10f23d716c6
         <title>Bienvenue sur ma première page avec OpenClassrooms !</title>
     </head>
     <body>
-        <h1>Hello ";
-        // line 9
-        echo twig_escape_filter($this->env, $this->getContext($context, "pseudo"), "html", null, true);
-        echo " !</h1>
-        
-        <p>
-            Le Hello World est un grand classique en programmation.
-            Il signifie énormément, car cela veut dire que vous avez
-            réussi à exécuter le programme pour accomplir une tâche simple :
-            afficher ce hello world !
-        </p>
+      
     </body>
 </html>";
     }
@@ -43,13 +33,8 @@ class __TwigTemplate_a1874c4e0bb87c200eae477f6392b617006f46af24088b4b10f23d716c6
         return "estherPlatformBundle:Advert:index.html.twig";
     }
 
-    public function isTraitable()
-    {
-        return false;
-    }
-
     public function getDebugInfo()
     {
-        return array (  28 => 9,  19 => 2,);
+        return array (  19 => 2,);
     }
 }
