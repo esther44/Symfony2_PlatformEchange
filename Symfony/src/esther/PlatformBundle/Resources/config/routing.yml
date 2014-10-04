@@ -1,28 +1,28 @@
 # src/esther/PlatformBundle/Resources/config/routing.yml
 
-esher_platform_home: #page d'accueil avec numéro des pages pour les annonces
+esther_platform_home:
     path:      /{page}
     defaults:  { _controller: estherPlatformBundle:Advert:index, page: 1 }
     requirements:
         page: \d*
-    
-esther_platform_view: #page visualisation d'une annonce
+
+esther_platform_view:
     path:      /advert/{id}
     defaults:  { _controller: estherPlatformBundle:Advert:view }
     requirements:
         id: \d+
 
-esther_platform_add: #ajout
+esther_platform_add:
     path:      /add
     defaults:  { _controller: estherPlatformBundle:Advert:add }
 
-esther_platform_edit: #modification
+esther_platform_edit:
     path:      /edit/{id}
     defaults:  { _controller: estherPlatformBundle:Advert:edit }
     requirements:
         id: \d+
 
-esther_platform_delete: #suppression
+esther_platform_delete:
     path:      /delete/{id}
     defaults:  { _controller: estherPlatformBundle:Advert:delete }
     requirements:
