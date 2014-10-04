@@ -1,11 +1,27 @@
 {# src/esther/PlatformBundle/Resources/views/Advert/index.html.twig #}
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Affichage de l'annonce {{ id }}</title>
-  </head>
-  <body>
-    <h1>Hello Annonce n°{{ id }} !</h1>
-  </body>
-</html>
+{% extends "estherPlatformBundle::layout.html.twig" %}
+
+{% block title %}
+  Accueil - {{ parent() }}
+{% endblock %}
+
+{% block estherplatform_body %}
+
+  <h2>Liste des annonces</h2>
+
+  <ul>
+    {% for advert in listAdverts %}
+      <li>
+        <a href="{{ path('esther_platform_view', {'id': advert.id}) }}">
+          {{ advert.title }}
+        </a>
+        par {{ advert.author }},
+        le {{ advert.date|date('d/m/Y') }}
+      </li>
+    {% else %}
+      <li>Pas (encore !) d'annonces</li>
+    {% endfor %}
+  </ul>
+
+{% endblock %}
